@@ -1,3 +1,4 @@
-for letter in range(97, 123):
-    if letter not in [101, 113]:
-        print(f"{chr(letter)}", end="")
+#!/usr/bin/python3
+for lower in range(97, 123):
+    if lower not in [101, 113]:
+        print("{}".format(chr(lower)), end=""
